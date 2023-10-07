@@ -5,7 +5,7 @@ export default function Hero() {
         <>
             <div className="mx-auto p-6 max-w-7xl pt-20">
                 <div className="max-w-[626px]">
-                    <h1 className="text-6xl font-bold leading-[88px] text-accent dark:text-accent-foreground">
+                    <h1 className="text-5xl md:text-6xl font-bold md:leading-[88px] leading-[68px] text-accent dark:text-accent-foreground">
                         Streamlined <br /> Global Shipping for Your Hauls
                     </h1>
                     <p className="text-lg leading-10 font-normal mb-14">
