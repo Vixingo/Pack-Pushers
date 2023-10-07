@@ -27,7 +27,7 @@ export default function Services() {
                     </div>
                     <Heading
                         tittle="Unbeatable Cost Savings"
-                        details="Enjoy top-notch service with Packpushers without breaking the bank. That's why we're proud to offer a cost-effective shipping solution that's hard to beat. We've done the research, and our rates are more budget-friendly than other shipping agents, including Panda buy."
+                        details="Enjoy top-notch service with Packpushers without breaking the bank. That&#39;s why we&#39;re proud to offer a cost-effective shipping solution that&#39;s hard to beat. We&#39;ve done the research, and our rates are more budget-friendly than other shipping agents, including Panda buy."
                     />
                 </div>
                 <div className="flex justify-between my-14 lg:flex-row flex-col-reverse items-center lg:items-start  ">
@@ -72,7 +72,7 @@ export default function Services() {
                     </div>
                     <Heading
                         tittle="Unbeatable Cost Savings"
-                        details="Enjoy top-notch service with Packpushers without breaking the bank. That's why we're proud to offer a cost-effective shipping solution that's hard to beat. We've done the research, and our rates are more budget-friendly than other shipping agents, including Panda buy."
+                        details="Enjoy top-notch service with Packpushers without breaking the bank. That&#39;s why we&#39;re proud to offer a cost-effective shipping solution that&#39;s hard to beat. We&#39;ve done the research, and our rates are more budget-friendly than other shipping agents, including Panda buy."
                     />
                 </div>
             </div>

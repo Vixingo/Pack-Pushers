@@ -12,7 +12,7 @@ export default function Promo() {
                     <p className="text-white font-normal leading-8 max-w-md mb-12">
                         the convenience and cost savings of shipping your
                         coveted hauls with Packpushers? Your journey awaits –
-                        let's get started!
+                        let&#39;s get started!
                     </p>
                     <Button
                         variant={"secondary"}
