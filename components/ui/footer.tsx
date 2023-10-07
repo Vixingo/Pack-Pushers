@@ -6,21 +6,19 @@ export default function Footer() {
     return (
         <>
             <div className="dark:bg-[#1E1E1E]">
-                <div className="container pt-20  pb-6">
+                <div className="container pt-14  pb-6">
                     <div className="flex lg:flex-1 justify-center mb-14">
                         <a
                             href="#"
-                            className="-m-1.5 p-1.5 flex  flex-col justify-center items-center"
+                            className="-m-1.5 p-1.5 flex  flex-col justify-center items-center dark:bg-none bg-[url(/logoBG.png)] bg-contain bg-no-repeat bg-center bg-origin-content "
                         >
                             <Image
+                                className=" rounded "
                                 src="/logo.png"
                                 alt=""
-                                width={43}
-                                height={43}
+                                width={220}
+                                height={50}
                             />
-                            <p className="font-bold text-xl text-muted dark:text-white mt-3">
-                                PACKPUSHERS
-                            </p>
                         </a>
                     </div>
                     <div className="flex sm:justify-between sm:flex-wrap mb-6 flex-col sm:flex-row sm:text-left text-center sm:items-start items-center">

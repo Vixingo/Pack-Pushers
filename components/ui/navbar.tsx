@@ -79,23 +79,22 @@ export default function Navbar() {
         <>
             <header className="dark:bg-accent dark:bg-opacity-50">
                 <nav
-                    className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8"
+                    className="mx-auto flex max-w-7xl items-center justify-between p-0 lg:px-8"
                     aria-label="Global"
                 >
                     <div className="flex lg:flex-1 ">
                         <a
                             href="#"
-                            className="-m-1.5 p-1.5 flex  flex-col justify-center items-center"
+                            className="-m-1.5 p-1.5 flex  flex-col justify-center items-center dark:bg-none bg-[url(/logoBG.png)] bg-contain bg-no-repeat bg-top bg-origin-content  "
                         >
+                            {" "}
                             <Image
+                                className=" rounded mt-[-15px]  pt-2"
                                 src="/logo.png"
                                 alt=""
-                                width={43}
-                                height={43}
+                                width={220}
+                                height={50}
                             />
-                            <p className="font-bold text-xl text-muted dark:text-white mt-3">
-                                PACKPUSHERS
-                            </p>
                         </a>
                     </div>
                     <div className="flex lg:hidden">
@@ -181,31 +180,31 @@ export default function Navbar() {
 
                         <a
                             href="#"
-                            className="text-lg font-semibold leading-6 uppercase text-primary "
+                            className="text-base font-medium leading-6 uppercase text-primary "
                         >
                             HOME
                         </a>
                         <a
                             href="#"
-                            className="text-lg font-semibold leading-6 uppercase dark:text-primary-foreground"
+                            className="text-base font-medium leading-6 uppercase dark:text-primary-foreground"
                         >
                             ABOUT US
                         </a>
                         <a
                             href="#"
-                            className="text-lg font-semibold leading-6 uppercase dark:text-primary-foreground"
+                            className="text-base font-medium leading-6 uppercase dark:text-primary-foreground"
                         >
                             SERVICES
                         </a>
                         <a
                             href="#"
-                            className="text-lg font-semibold leading-6 uppercase dark:text-primary-foreground"
+                            className="text-base font-medium leading-6 uppercase dark:text-primary-foreground"
                         >
                             CONTACT US
                         </a>
                         <a
                             href="#"
-                            className="text-lg font-semibold leading-6 uppercase dark:text-primary-foreground"
+                            className="text-base font-medium leading-6 uppercase dark:text-primary-foreground"
                         >
                             LOG IN
                         </a>
